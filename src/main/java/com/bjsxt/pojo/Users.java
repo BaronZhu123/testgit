@@ -3,7 +3,7 @@ package com.bjsxt.pojo;
 public class Users {
 	private int id;
 	private String name;
-	private int password;
+	private int pw;
 
 	public int getId() {
 		return id;
@@ -21,26 +21,8 @@ public class Users {
 		this.name = name;
 	}
 
-	public int getPassword() {
-		return password;
-	}
-
-	public void setPassword(int password) {
-		this.password = password;
-	}
-
-	@Override
-	public String toString() {
-		return "Users [id=" + id + ", name=" + name + ", password=" + password + "]";
-	}
-
-	public Users(int id, String name, int password) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.password = password;
-	}
-
+	
+	
 	public Users() {
 		super();
 	}
